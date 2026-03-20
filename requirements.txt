@@ -1,0 +1,5 @@
+Flask
+firebase-admin
+flask_cors
+together
+python-dotenv

@@ -1,0 +1,10 @@
+services:
+  zukko_api:
+    build: .
+    container_name: zukko_api
+    ports:
+      - "5000:5000"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
