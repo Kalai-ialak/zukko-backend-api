@@ -1,0 +1,10 @@
+services:
+  zukko_api:
+    build: .
+    container_name: zukko_api
+    ports:
+      - "6009:6009"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
